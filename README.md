@@ -1,5 +1,7 @@
 # Dear Future Me
 
+**[Live demo →](https://eric-lautanen.github.io/futureme/)**
+
 A private letter box for writing to your future self — seal a letter until a date you choose, or leave it open to reread anytime. Every letter also resurfaces on its own anniversary, so past-you pays present-you a small, unplanned visit each year.
 
 No account. No server. No sync. Nothing to buy. It's a single HTML file that runs entirely in your browser.
@@ -9,6 +11,8 @@ No account. No server. No sync. Nothing to buy. It's a single HTML file that run
 Most journaling apps are built to be companies. This one is built to be a file. It will never be acquired, never add a subscription tier, and never phone home — because there's no home to phone. Your letters live in your browser's local storage, on your device, under your control.
 
 ## Getting started
+
+Try it instantly at the [live demo](https://eric-lautanen.github.io/futureme/) — no download needed. Note that letters written there are stored in that browser only; for something you'll keep long-term, download your own copy instead:
 
 1. Download `dear-future-me.html`
 2. Open it in any modern browser (double-click, or drag it into a browser window)
