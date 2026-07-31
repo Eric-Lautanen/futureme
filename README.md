@@ -20,6 +20,33 @@ Try it instantly at the [live demo](https://eric-lautanen.github.io/futureme/) �
 
 Bookmark the file or keep it on your desktop. Opening it again picks up right where you left off, since your data is saved locally each time you write.
 
+## Set it as your homepage
+
+Since the file lives on your device, your browser needs its full local path (a `file://` URL) rather than a normal web address.
+
+**Find the path first:**
+- Windows: right-click the file → Properties → copy the "Location," then append the filename. Turn it into a URL like `file:///C:/Users/you/Downloads/dear-future-me.html`
+- macOS: right-click the file → Get Info, or drag the file into a Terminal window to see its path. URL form: `file:///Users/you/Downloads/dear-future-me.html`
+- Linux: right-click → Properties, or `pwd` in the folder containing it. URL form: `file:///home/you/Downloads/dear-future-me.html`
+
+Once you have that `file://` URL, set it as your homepage:
+
+**Chrome** (Windows/macOS/Linux)
+`chrome://settings` → **On startup** → **Open a specific page or set of pages** → **Add a new page** → paste the `file://` URL.
+To also show a Home button that opens it: **Appearance** → toggle **Show Home button** → **Enter custom web address** → paste the same URL.
+
+**Firefox** (Windows/macOS/Linux)
+`about:preferences` → **General** → **Home** section → **Homepage and new windows** → choose **Custom URLs…** → paste the `file://` URL.
+
+**Microsoft Edge** (Windows/macOS)
+`edge://settings` → **Start, home, and new tabs** → under **When Edge starts**, choose **Open these pages** → **Add a new page** → paste the URL. For the Home button, enable **Show home button** and set **Enter a specific page**.
+
+**Safari** (macOS)
+**Safari → Settings → General** → paste the `file://` URL into the **Homepage** field. Also set **New windows open with:** and **New tabs open with:** to **Homepage** if you want it to appear automatically rather than only when clicking the Home icon.
+*Note: Safari on iOS doesn't support local `file://` homepages due to sandboxing — this only works on the desktop app.*
+
+**A simpler alternative:** most browsers let you drag the address-bar icon (or the file itself) onto your bookmarks bar for one-click access, which sidesteps homepage settings entirely and works identically across all platforms.
+
 ## Features
 
 - **Write** — compose a letter with an optional title, mood, and tags
